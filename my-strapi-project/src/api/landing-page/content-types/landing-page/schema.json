@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Subtitle": {
+      "type": "blocks"
+    },
+    "CTAButtonText": {
+      "type": "string"
+    },
+    "CTAButtonLink": {
+      "type": "string"
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeatabletext.features"
+    }
+  }
+}

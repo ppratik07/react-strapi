@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ai_resume_builders",
+  "info": {
+    "singularName": "ai-resume-builder",
+    "pluralName": "ai-resume-builders",
+    "displayName": "AI Resume Builder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}
